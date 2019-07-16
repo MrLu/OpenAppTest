@@ -23,6 +23,16 @@
 		08ABB88E22DDECA2003D0011 /* InApp.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08ABB87722DDEC6D003D0011 /* InApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		08060F0722DE14DC009E1AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0857E45E22DD6838006C3F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08ABB87622DDEC6D003D0011;
+			remoteInfo = InApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0857E48A22DD694A006C3F07 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -196,6 +206,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				08060F0822DE14DC009E1AF3 /* PBXTargetDependency */,
 			);
 			name = OpenAppTest;
 			productName = OpenAppTest;
@@ -342,6 +353,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08060F0822DE14DC009E1AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08ABB87622DDEC6D003D0011 /* InApp */;
+			targetProxy = 08060F0722DE14DC009E1AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0857E46F22DD683A006C3F07 /* Main.storyboard */ = {
